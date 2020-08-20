@@ -2,9 +2,11 @@
   /*background: #53aff6;
   background-image: url("/seaskyFlip800w.png" );
   */
-  background: url("/seaskyFlip800w.png");
-  background-repeat: no-repeat;
-  background-size: 100%;  
+  background: url('/seaskyFlip800w.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
   border-radius: 0;
   color: white;
   padding-top: 80px ;
