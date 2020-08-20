@@ -1,14 +1,20 @@
 .jumbotron {
-  background: #532F8C;
+  /*background: #53aff6;
+  background-image: url("/seaskyFlip800w.png" );
+  */
+  background: url("/seaskyFlip800w.png");
+  background-repeat: no-repeat;
+  background-size: 100%;  
+  border-radius: 0;
   color: white;
   padding-bottom: 80px; }
   .jumbotron .btn-primary {
-    background: #845ac7;
-    border-color: #845ac7; }
+    background: #53aff6;
+    border-color: #53aff6; }
     .jumbotron .btn-primary:hover {
-      background: #7646c1; }
+      background: #53aff6; }
   .jumbotron p {
-    color: #d9ccee;
+    color: #ffffff;
     max-width: 75%;
     margin: 1em auto 2em; }
   .navbar + .jumbotron {
@@ -16,7 +22,7 @@
   .jumbotron .lang-logo {
     display: block;
     background: #B01302;
-    border-radius: 50%;
+    border-radius: 0%;
     overflow: hidden;
     width: 100px;
     height: 100px;
